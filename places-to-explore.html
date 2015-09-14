@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>place To explore</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-primary">Places to explore in Portland!</h1>
+
+      <div class="row">
+        <div class="col-md-8">
+          <h2>Add place</h2>
+          <form id="new-place">
+            <div class="form-group">
+              <label for="new-place-name">name</label>
+              <input type="text" class="form-control" id="new-place-name">
+            </div>
+            <div class="form-group">
+              <label for="new-place-neighborhood">neighborhood</label>
+              <input type="text" class="form-control" id="new-place-neighborhood">
+            </div>
+            <div class="form-group">
+              <label for="new-place-type">type</label>
+              <input type="text" class="form-control" id="new-place-type">
+            </div>
+
+            <div id="new-facts">
+              <div class="new-facts">
+                <div class="form-group">
+                  <label for="new-feel">feel</label>
+                  <input type="text" class="form-control new-feel">
+                </div>
+                <div class="form-group">
+                  <label for="new-perfect-for">perfect for</label>
+                  <input type="text" class="form-control new-perfect-for">
+                </div>
+                <div class="form-group">
+                  <label for="new-notes">notes</label>
+                  <input type="text" class="form-control new-notes">
+                </div>
+              </div>
+            </div>
+
+            <span class="btn btn-warning" id="add-facts">add more facts</span>
+
+            <button type="submit" class="btn btn-primary">add place to explore</button>
+          </form>
+
+          <h2>Your placess</h2>
+          <ul id="places">
+
+          </ul>
+        </div>
+
+        <div class="col-md-8">
+          <div id="show-place">
+            <h2></h2>
+
+            <p>name: <span class="place-name"></span></p>
+            <p>neighborhood: <span class="place-neighborhood"></span></p>
+            <p>facts:</p>
+            <ul id="facts">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
