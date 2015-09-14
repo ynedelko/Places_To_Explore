@@ -1,14 +1,12 @@
-# _App Name_
+# _Places to Explore in Portland_
 
-##### This app allows you to .....
+##### This app allows you to enter and store places to explore in Portland.
 
 #### By _**Yelena Nedelko**_
 
 ## Description
 
-_Users can:_
-
-* _....._
+_The goal of this app was to create a place object and an facts object and then add facts to the place object. This created a relationship between the place object and the many possible facts objects that it can store._
 
 
 ## Technology Used

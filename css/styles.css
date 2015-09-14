@@ -4,9 +4,9 @@
 
 .place {
   cursor: pointer;
-  color: #0088cc;
 }
 
 .place:hover {
   text-decoration: underline;
+  color: #f0ad4e;
 }

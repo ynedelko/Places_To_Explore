@@ -5,15 +5,15 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
-    <title>place To explore</title>
+    <title>places to explore</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="text-primary">Places to explore in Portland!</h1>
+      <h1 class="text-primary">places to explore in portland</h1>
 
       <div class="row">
         <div class="col-md-8">
-          <h2>Add place</h2>
+          <h3>add place</h3>
           <form id="new-place">
             <div class="form-group">
               <label for="new-place-name">name</label>
@@ -47,23 +47,24 @@
 
             <span class="btn btn-warning" id="add-facts">add more facts</span>
 
-            <button type="submit" class="btn btn-primary">add place to explore</button>
+            <button type="submit" class="btn btn-primary"><strong>add place</strong></button>
           </form>
 
-          <h2>Your placess</h2>
+          <h3>your places</h3>
           <ul id="places">
 
           </ul>
         </div>
 
-        <div class="col-md-8">
+        <div class="col-md-4">
           <div id="show-place">
-            <h2></h2>
+            <h2 class="text-warning"></h2>
 
-            <p>name: <span class="place-name"></span></p>
-            <p>neighborhood: <span class="place-neighborhood"></span></p>
-            <p>facts:</p>
-            <ul id="facts">
+            <p class="text-primary">name: <span class="place-name"></span></p>
+            <p class="text-primary">neighborhood: <span class="place-neighborhood"></span></p>
+            <p class="text-primary">type: <span class="place-type"></span></p>
+            <p class="text-primary">facts:</p>
+            <ul class="text-primary" id="facts">
 
             </ul>
           </div>
